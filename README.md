@@ -1,4 +1,4 @@
-📊 Customer Churn Prediction: End-to-End Data Science Project
+#📊 Customer Churn Prediction: End-to-End Data Science Project
 
 A complete machine learning pipeline to predict customer churn, combining technical accuracy and business insight. This project covers data preparation, modeling, evaluation, deployment, and dashboarding.
 
