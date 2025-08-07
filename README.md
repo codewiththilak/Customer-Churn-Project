@@ -1,8 +1,8 @@
-# 📊 Customer Churn Prediction: End-to-End Data Science Project
+# Customer Churn Prediction: End-to-End Data Science Project
 
 A complete machine learning pipeline to predict customer churn, combining technical accuracy and business insight. This project covers data preparation, modeling, evaluation, deployment, and dashboarding.
 
-🔍 Project Goal
+Project Goal
 
 Predict whether a customer will churn (leave) using historical data, then present predictions and insights using:
 
@@ -32,7 +32,7 @@ App & Visualization: Streamlit, Power BI
   ├── README.md
 
 ```
-👄 1. Data Collection
+1. Data Collection
 
 Used IBM's Telco Customer Churn dataset (originally ~7000 rows)
 
@@ -59,7 +59,7 @@ DATA:
 ![Snap_5](https://i.postimg.cc/4x9MWycj/Monthly-Vs-Churn.png)
 
 
-🔄 2. Feature Engineering
+2. Feature Engineering
 
 Converted categorical variables using OneHotEncoding
 
@@ -89,7 +89,7 @@ Screenshot
 
 ![Snap_9](https://i.postimg.cc/PqcQ9Qk4/Feature-and-Churn-Risk.png)
 
-💡 3. Model Building
+3. Model Building
 
 Split data using train_test_split
 
@@ -104,7 +104,7 @@ Combined both in a VotingClassifier ensemble
 ![Snap_12](https://i.postimg.cc/k5kWfMxY/Evaluation-for-hybrid-model.png)
 
 
-🚀 4. Streamlit App
+4. Streamlit App
 
 Built a frontend app to:
 
@@ -127,7 +127,7 @@ def predict_churn(user_input_df):
 ![Snap_13](https://i.postimg.cc/h4wRsHwz/Stream-lit-app.png)
 ![Snap_14](https://i.postimg.cc/mZcgTNW9/App-output.png)
 
-📊 6. Power BI Dashboard
+5. Power BI Dashboard
 
 Used predicted churn probability + actual data to build:
 
